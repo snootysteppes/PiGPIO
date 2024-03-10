@@ -7,10 +7,14 @@ GPIO.setup(17, GPIO.IN, pull_up_down=GPIO.PUD_UP) # 17 = Pin No, Took me a while
 
 # Set up Pygame
 pygame.init() # need to actually call Pygame function
+pygame.mixer.init() # sound
+pygame.mixer.music.load("your_sound_file.wav") # load sound file
 
 # Function to be called when button is pressed
 def button_func():
     print("Hello, world!") # modify this
+    pygame.mixer.music.play() # plays sound file
+
 
 # Main game loop
 while True:
