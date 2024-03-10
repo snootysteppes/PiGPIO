@@ -15,7 +15,7 @@ sudo pip3 install pygame RPi.GPIO
 
 ## How It Works
 
-The script sets up a GPIO pin as an input pin, and then enters a loop where it continually checks the state of the pin. If the button connected to the pin is pressed, it calls a function that prints "Hello, world!" to the console.
+The script sets up a GPIO pin as an input pin, and then enters a loop where it continually checks the state of the pin. If the button connected to the pin is pressed, it calls a function that prints "Hello, world!" to the console and plays a sound file of your choosing.
 
 ## Usage
 
